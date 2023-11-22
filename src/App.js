@@ -7,14 +7,12 @@ import Planners from './components/Planners';
 import Paackages from './components/Packages';
 import Blogs from './components/Blogs';
 import Footer from './components/Footer';
-import Toggle from './components/Toggle';
 // import { DarkModeToggle } from './components/Toggle';
 
 function App() {
 
   return (
     <div>
-      <Toggle />
       {/* <DarkModeToggle /> */}
       <Header/>
       <Desktop/>

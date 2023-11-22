@@ -2,6 +2,7 @@ import logo from '../images/logo.jpg';
 import play from '../images/play.png';
 import search from '../images/search.png';
 import frame from '../images/frame.png';
+import Toggle from './Toggle';
 import Circle from './Circle';
 
 function Header () {
@@ -10,7 +11,7 @@ function Header () {
       <div className='container'>
         <img src={logo} alt='' />
         <div className='sub-container'>
-          <div className='center'> 
+          <div className='center'>  
             <p>En</p>
             <Circle />
             <p>In</p>
@@ -19,6 +20,7 @@ function Header () {
             <img src={search} alt='' style={{ marginRight: 40 }} />
             <p>Menu</p>
             <img src={frame} alt='' />
+            <Toggle />
           </div>
         </div>
         <div className='sub-container' style={{ marginTop: 200 }}>
